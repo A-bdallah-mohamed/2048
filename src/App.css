@@ -1,0 +1,41 @@
+.Maincontainer{
+  width: 100vw;
+  height: 100vh;
+  background-color: #8bca84;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gameoutline{
+  width: 450px;
+  height: 450px;
+  background-color: white;
+  border-radius: 12px;
+  border: solid 2px black;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.gamecontainer{
+  width: 420px;
+  height: 430px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 6px;
+  column-gap: 6px;
+}
+.tile{
+width: 100px;
+min-width: 100px;
+height: 100px;
+
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
